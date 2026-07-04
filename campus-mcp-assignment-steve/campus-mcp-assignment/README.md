@@ -7,7 +7,7 @@ This package contains two Maven modules:
 | `campus-info-mcp-server` | The **supplied** Campus Information MCP server (HTTP/SSE). Tools, Resources, Prompts, Capabilities. | **Do not modify.** Students connect to it. |
 | `reference-javafx-client` | A **reference** JavaFX MCP client showing discovery, RAG and a direct tool call. | A starting point. Extend into your own app. |
 
-> **RESTRICTIONS (read the assignment brief):** no Spring, no Quarkus, no database. The
+> **RSTRICTIONS (read the assignment brief):** no Spring, no Quarkus, no database. The
 > knowledge base and all stored data are plain **text files**. Jetty is used only as a small
 > servlet host for the server's SSE endpoint — it is not an application framework.
 
